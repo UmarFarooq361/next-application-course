@@ -1,0 +1,80 @@
+:root{
+    --bg:#0c0b22;
+    --bgSoft:#0e0c36;
+    --text: white;
+    --textSoft: rgb(221, 214, 214);
+    --btn:rgb(52, 52, 245);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+    color: var(--text);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    background-color: rgb(35, 39, 75);
+    width: 1536px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+    .container{
+        width: 475px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Add your styles for small devices here */
+    .container {
+        width: 640px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Add your styles for medium devices here */
+    .container {
+        width: 769px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Add your styles for large devices here */
+    .container {
+        width: 1024px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1365.98px) {
+    .container {
+        width: 1280px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1366px and up) */
+@media (min-width: 1366px) and (max-width: 1535.98px) {
+    .container {
+        width: 1366px;
+    }
+}

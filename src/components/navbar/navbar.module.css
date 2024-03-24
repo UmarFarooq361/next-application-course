@@ -1,0 +1,10 @@
+.container{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+}
