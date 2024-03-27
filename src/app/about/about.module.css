@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+.textContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.title{
+    font-size: 20px;
+    color: var(--btn);
+}
+.heading{
+    font-size: 40px;
+}
+.desc{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box h1{
+    color: var(--btn);
+    
+}
+
+.imgContainer{
+    position: relative;
+    flex: 1;
+}
+.aboutImg{
+    border-radius: 20%;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+
+}

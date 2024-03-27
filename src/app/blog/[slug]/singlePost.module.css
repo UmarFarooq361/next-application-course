@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  gap: 100px; }
+
+.imgContainer {
+  flex: 1;
+  position: relative;
+  height: calc(100vh - 200px); 
+}
+.img {
+    object-fit: cover;
+    border-radius: 5%;
+  }
+
+.textContainer {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title{
+    font-size: 44px;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.detailText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.detailTitle{
+    font-weight: bold;
+}
+
+.avatar {
+  object-fit: cover;
+  border-radius: 50%; /* Makes the avatar image circular */
+}
+.content{
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .imgContainer{
+        display: none;
+    }
+}

@@ -21,7 +21,7 @@ a{
 }
 
 .container{
-    background-color: rgb(35, 39, 75);
+    background-color:#0c0b22;
     width: 1536px;
     margin: auto;
     padding-left: 50px;
@@ -33,6 +33,11 @@ a{
 }
 
 /* Extra small devices (phones, 576px and down) */
+@media (max-width: 475px) {
+    .container{
+        width: 380px;
+    }
+}
 @media (max-width: 576px) {
     .container{
         width: 475px;

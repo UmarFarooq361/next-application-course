@@ -2,7 +2,7 @@ import Navbar from "@/components/navbar/Navbar"
 import Footer from "@/components/footer/Footer"
 import "./globals.css"
 export const metadata = {
-  title: 'Next Website',
+  title: 'Next Blog Website',
   description: 'Created by Umar Farooq using Next.js',
 }
 

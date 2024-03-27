@@ -1,6 +1,7 @@
 .container{
     /* background-color: aqua; */
     display: flex;
+    margin-top: 5px;
     justify-content: space-between;
 }
 
@@ -10,5 +11,5 @@
     align-items: center;
     min-width: 80px;
     background-color: #DFA;
-    border-radius: 30%;
+    border-radius: 10%;
 }
