@@ -22,19 +22,7 @@
 .title{
     font-size: 44px;
 }
-.detail{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-.detailText{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.detailTitle{
-    font-weight: bold;
-}
+
 
 .avatar {
   object-fit: cover;
